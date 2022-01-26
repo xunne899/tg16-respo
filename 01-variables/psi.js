@@ -1,4 +1,4 @@
-const prompt = require ('prompt-sync')();
+const prompt = require -m('prompt-sync')();
 
 let psi = parseFloat(prompt("enter psi:"))
 let quality = 0;
