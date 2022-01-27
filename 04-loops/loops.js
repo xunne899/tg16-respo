@@ -41,3 +41,16 @@ while (totalSaved < 100){
 
 }
 console.log(days)
+
+
+let first10km = 3.5
+let afterfirst10km = 3.5
+let distance = 0 
+let charge = 0 
+
+while ( charge <= 35){
+    distance += charge ; 
+    distance 
+
+}
+
