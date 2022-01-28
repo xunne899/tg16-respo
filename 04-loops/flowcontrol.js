@@ -22,3 +22,14 @@ while (i<3){
     n++;
 
 console.log("loop ended");
+
+ for (let s =10 ; s<21; s ++){
+     if (s== 12){
+         continue;
+     }
+ }
+
+ console.log(s)
+
+ let r = 0 ;
+ while (r)

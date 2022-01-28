@@ -17,7 +17,7 @@ let fruits = ['apples', 'bananas', 'cherries', 'durians', 'oranges']
 fruits.splice(2,1);
 console.log(fruits)
 
-let numbers = [1,3 , 5, 7,9,11,13]
+let numbers = [1,3,5,7,9,11,13]
 numbers.splice(2,3)
 
 
@@ -34,7 +34,7 @@ for(let n of names) {
 
 }
 
-for(let c of "hello worls"){
+for(let c of "hello world"){
     console.log(c);
 }
 
