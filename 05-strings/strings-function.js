@@ -13,3 +13,29 @@ console.log ("phrase.slice(6,12)", phrase.slice(6,12))
 
 console.log ("phrase.slice(6,12)", phrase.slice());
 
+// get a copy of string in upper case
+console.log ("phrase.toUpperCase()", phrase.toUpperCase());
+
+let s = "APPLES pears BANANAS"
+console.log ("phrase.toLowerCase()", phrase.toLowerCase());
+
+// original doenst changed, returns a copy of string
+
+let w ="12345"
+console.log("w.string", w.trim() +"!")
+
+let w2 = "  12345"
+console.log ("w2.trim", w2.trim() +"!")
+
+console.log (phrase.includes("fox"));
+console.log (phrase.includes("cat"));
+
+
+console.log(phrase.indexOf("fox"));
+
+let lunch  = "chicken rice, soya bean, bean milk, siew mai, satay, muffin";
+console.log("", lunch.split(','))
+
+
+
+
