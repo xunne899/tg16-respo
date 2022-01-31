@@ -33,6 +33,7 @@ let recipe = {
 
 let spaceship = {
     speed: 10,
+    // a function inside an obj  is known as an obj
     calDistTrav: function(time){
         console.log("attempting to cal distance trav")
        return this.speed *time;
@@ -51,6 +52,40 @@ console.log(starDestroyer.calDistTrav(10));
 
 
 
+//create an empty object
+
+let employeeRecord = {
+    firstName : 'Tan'
+}
+
+employeeRecord.lastName = " Ah kow";
+employeeRecord.getName = function(){return this.firstName + ""+this.lastName;
+}
+
+// console.log(employeeRecord);
+// console.log(employeeRecord.getname())
+
+// arrays and objects are reference
+
+// primitive - strings *(strings despite being obj, they are immutable(cannot be changed)), integers, boolean,floats
+// reference - objects, functions, arrays
+
+
+// let 02 = 01;
+// 01.count = 15
 
 
 
+let food = {
+    // curly braces means obk=jects
+       'a' :'apple pie',
+       'b' :'bak gua',
+       'c' :'cheese cake',
+       'r' :'roti prata',
+       'p' :'pineapple tart',
+       
+   }
+ 
+console.log('a' in food);
+console.log('d' in food);
+console.log(food.hasOwnProperty('p'));
