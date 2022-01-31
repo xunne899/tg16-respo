@@ -1,0 +1,5 @@
+// objects store key/values pairs , just like in python 
+
+let fruits = {
+    
+}
