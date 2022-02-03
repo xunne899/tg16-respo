@@ -3,7 +3,7 @@ let employee = {
     'lastname' : 'Doe',
     'address' :{
         'street' :' yishun ring road',
-        'building': ' blk 636',
+        'unit': ' blk 636',
     }
 }
 

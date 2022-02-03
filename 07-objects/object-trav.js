@@ -15,7 +15,7 @@ console.log(o)
 for (let propertyName in o){
     //extract out property name one at a time and store in propertyName
 
- console.log(food[propertyName]); }
+ console.log(o[propertyName]); }
  
 //  ==> food['foodname'] = chicken rice
 //==> food['calories'] = 600
